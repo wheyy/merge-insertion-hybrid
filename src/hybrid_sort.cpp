@@ -37,7 +37,7 @@ void hybridSortRec(int* arr, int left, int right, int S, int* temp, long long& c
     merge(arr, left, mid, right, temp, comparisons);
 }
 
-} // namespace
+} // why does namespace end here? 
 
 long long hybridSort(int* arr, int left, int right, int S) {
     long long comparisons = 0;
